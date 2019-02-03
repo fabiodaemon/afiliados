@@ -54,12 +54,6 @@ body{
     margin: 0;
 }
 
-.titulo{
-    
-    color: #ffffff;
-    padding: 40px;
-}
-
 .column {
   float: left;
   width: 50%;
@@ -88,35 +82,7 @@ body{
     padding: 10px;
 }
 
-#logo{
-    width: 176.08px;
-    height: 80.98px;
-	float: left;
-    display: block;
-    margin-right: 25px;
-    margin-top: 10px;
-}
 
-.caixa-logo{
-    
-    height: 20%;
-    background-color: #111044;
-    margin-bottom: -50px;
-    padding-left: 20px; 
-    
-}
-
-.caixa-logo h1{
-    
-    font-size: 1.5em;
-}
-
-
-.container-logo {
-  position: relative;
-  margin: 0;
-  background-color: #111044; 
-}
 
 .container:hover .card-portfolio {
 /*  opacity: 0.3;*/
@@ -285,6 +251,13 @@ nav{width: 100%}
 
 #menu-title{display: none}
 
+#mySidenav{display: none;}
+
+
+/*                              mobile
+---------------------------------------------------------------------------
+                                                                        */
+
 @media screen and (max-width: 800px) {
     
     *{
@@ -316,13 +289,9 @@ a.icon:active{
         width: 50%;
         margin-left: 100;
     }
+
     
-    .titulo{
-        
-        padding: 30px;
-    }
-    
-    #mySidenav{width: 45%}
+    #mySidenav{width: 45%;}
 
     .sidenav {
       height: 100%;
@@ -335,6 +304,7 @@ a.icon:active{
       overflow-x: hidden;
       transition: 0.5s;
       padding-top: 60px;
+
     }
 
     .sidenav a {
@@ -342,7 +312,6 @@ a.icon:active{
       text-decoration: none;
       font-size: 25px;
       color: #ffffff;
-      display: block;
       transition: 0.3s;
         text-align: left;
     }
@@ -351,8 +320,8 @@ a.icon:active{
 
     .sidenav a:hover {
       color: #000000;
-        width: 100%;
-        text-align: left;
+      width: 100%;
+      text-align: left;
     }
 
     .sidenav .closebtn {
@@ -381,6 +350,7 @@ fieldset{
         display: block;
     }
     
-    .titulo{font-size: 1.4em}
-        
+
+
+    
 }

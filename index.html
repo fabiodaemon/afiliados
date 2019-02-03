@@ -23,18 +23,12 @@
     
 <header>
         
-        <div class="caixa-logo">
-            <div class="container-logo">
-                <a href="index.html"><img src="Imagens/logo.jpg" id="logo"></a>
-            </div>
-            <h1 class="titulo">PROGRAMA DE AFILIADOS</h1>
-			
-        </div><br>
+
     
 		<nav>
             
             <div class="topnav" id="myTopnav">
-            <span style="font-size:30px;" onclick="openNav()" id="hamburger">&#9776;</span>
+            <span style="font-size:30px; cursor: pointer;" onclick="openNav()" id="hamburger">&#9776;</span>
                 
                 <div id="mySidenav" class="sidenav">
                   <h2 id="menu-title">MENU</h2>
@@ -44,7 +38,26 @@
                   <a href="#duvidas">Dúvidas Frequentes</a>
                   <a href="#contato">Contato</a>
                 </div>
-            
+                
+                <script>
+                    
+                    function openNav() {
+
+                        
+                        document.getElementById("mySidenav").style.width = "250px";                        
+                        document.getElementById("mySidenav").style.display = "block";
+
+                    }
+
+                    function closeNav() {
+
+                        document.getElementById("mySidenav").style.width = "0";
+
+                    }
+                    
+               </script>
+                
+                
               <a href="#" id="vazio"></a>
               <a href="#definicao" id="link-menu">O que é ?</a>
               <a href="#comocomecar" id="link-menu">Como começar ?</a>
@@ -246,16 +259,6 @@
             </form>
 
         </fieldset>
-    
-    <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-        }
-
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
 				
  </body>
 </html>
