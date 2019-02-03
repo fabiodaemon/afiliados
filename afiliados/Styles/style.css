@@ -1,0 +1,392 @@
+*{
+    
+    font-family: 'Play', sans-serif;
+    
+}
+
+header{
+    
+    margin: 0;
+    
+}
+
+fieldset{
+    
+    margin: auto;
+    padding: auto;
+    display: block;
+    width: 50%;
+}
+
+
+.img-retangulos{
+    
+    clear: left;
+    width: 55px;
+    height: 55px;
+    display: block;
+    
+}
+
+h3{
+    
+    display:block;
+    
+}
+
+a {
+    
+  text-decoration:none;
+  font-weight: bold;
+  position: relative;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: inline-block;
+    
+}
+
+a span {
+    
+  position: relative;
+  z-index: 3;
+    
+}
+
+body{
+    
+    padding: 0;
+    margin: 0;
+}
+
+.titulo{
+    
+    color: #ffffff;
+    padding: 40px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img-fundo #banner{
+    
+    width: 100%;
+}
+
+.row-definicao {
+    width: 60%;
+    display: block;
+    margin-left: 400px;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#logo{
+    width: 176.08px;
+    height: 80.98px;
+	float: left;
+    display: block;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.caixa-logo{
+    
+    height: 20%;
+    background-color: #111044;
+    margin-bottom: -50px;
+    padding-left: 20px; 
+    
+}
+
+.caixa-logo h1{
+    
+    font-size: 1.5em;
+}
+
+
+.container-logo {
+  position: relative;
+  margin: 0;
+  background-color: #111044; 
+}
+
+.container:hover .card-portfolio {
+/*  opacity: 0.3;*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  font-weight: bold;
+  color: white;  
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+.box{
+	
+  box-sizing: border-box;
+  width: 100%;
+  height: 40%;
+  padding: 30px;  
+  border: 5px solid #42f4f4;
+	
+}
+
+.session-title{
+	
+    font-size: 50px;
+	text-align: center;
+	
+}
+
+#hamburger{display: none;}
+
+
+.img-fundo{
+    
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.retangulo{
+    
+    margin-left: 200px;
+    padding: 5px;
+}
+
+.sessao span{
+	
+	font-size: 40px; 
+	background-color: #ffffff; 
+	padding: 0 10px;
+	
+}
+
+p{
+	
+	font-size: 20px;
+	margin-left: 15px;
+	
+}
+
+.coluna-duvidas {
+  float: left;
+  width: 50%;
+  background-color: white;  
+}
+
+.collapsible {
+  background-color: #02c6c0;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-left: 15px
+}
+
+.active, .collapsible:hover {
+  background-color: #42f4f4;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin: 5px;
+}
+
+
+.caixa-comecar{
+    
+    border: 2px solid; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+    width: 50%;
+    height: auto;
+    padding: 15px;
+}
+
+.img-caixas{
+    
+    padding: 10px; 
+    float:left; 
+    overflow: hidden;
+    width: 57px;
+    height: 57px;
+    margin-top: -22px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #02c6c0;
+  text-align: center;
+  width: 100%;
+  text-transform:uppercase;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.active {
+  background-color: #111044;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+   float: left; 
+}
+
+#vazio{display: none}
+
+nav{width: 100%}
+
+#close-button{display: none}
+
+#link-menu{display: none}
+
+#menu-title{display: none}
+
+@media screen and (max-width: 800px) {
+    
+    *{
+        margin: 0 auto;
+    }
+
+#hamburger{display: block; float: left}
+    
+    
+#close-button{display: block; float: left}
+    
+    
+#link-menu{display: none}
+
+a.icon:active{
+    float:left;
+    z-index: 100;
+}
+
+    
+    .coluna-definicao{
+        
+        width: 100%;
+    
+    }
+    
+    .row-definicao{
+        
+        width: 50%;
+        margin-left: 100;
+    }
+    
+    .titulo{
+        
+        padding: 30px;
+    }
+    
+    #mySidenav{width: 45%}
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111044;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    .sidenav a {
+/*      padding: 8px 8px 8px 32px;*/
+      text-decoration: none;
+      font-size: 25px;
+      color: #ffffff;
+      display: block;
+      transition: 0.3s;
+        text-align: left;
+    }
+    
+    #close-button:hover{width: auto}
+
+    .sidenav a:hover {
+      color: #000000;
+        width: 100%;
+        text-align: left;
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    .img-caixas{margin-top: 0 }
+        
+fieldset{
+    
+    border: none;
+    width: 50%; 
+    margin: auto; 
+    padding: auto; 
+    display: block;
+}
+    
+#menu-title{color: #FFFFFF; display: block; }
+    
+    .column{
+        width: 100%;
+        display: block;
+    }
+    
+    .titulo{font-size: 1.4em}
+        
+}
