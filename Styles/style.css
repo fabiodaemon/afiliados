@@ -199,6 +199,13 @@ p{
     padding: 15px;
 }
 
+.caixa-logo{
+    
+    display: block; 
+    width: 100%;
+    background-color:  #111044;
+}
+
 .img-caixas{
     
     padding: 10px; 
@@ -215,6 +222,7 @@ p{
   text-align: center;
   width: 100%;
   text-transform:uppercase;
+    display: block;
 }
 
 .topnav a {
